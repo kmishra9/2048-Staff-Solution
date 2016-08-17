@@ -1,7 +1,9 @@
 # 2048-Staff-Solution
 
 Dependencies:
+	
 	Necessary: Python3
+	
 	Optional (but important): Getch, Termcolor, Tkinter
 
 	Download Python3 from here: https://www.python.org/downloads/
@@ -12,10 +14,13 @@ Dependencies:
 
 Structure of Repo: Full solution file is included. See Google Doc for Spec or other GitHub repo for bare starter files.
 
-Bare Starter Files: 
-2048 Spec: 
+Bare Starter Files: https://github.com/kmishra9/2048-Starter
+
+2048 Spec: https://goo.gl/34kNbl
 
 
 Using the code:
+	
 	To run: 	python3 staff_solution_2048.py
+	
 	To test: 	python3 autograder.py 					<-- Note: All tests are going to pass, but the autograder is included for reference
