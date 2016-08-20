@@ -117,7 +117,9 @@ def main():
             
             print("You lost! Would you like to play again? (y/n)");
             if (input() == 'y'):
-                main();
+                main()
+            else:
+                quit()
 
 #End of Step 0 #############################################################################################
 

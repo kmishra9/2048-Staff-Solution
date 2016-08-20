@@ -1,10 +1,10 @@
 #2048 Utils
 
-file_name = "starter_2048"
+file_name = "staff_solution_2048"
 try:
-    starter = __import__(file_name, fromlist=["something"])
+    starter = __import__(file_name, fromlist=[""])
 except ImportError:
-    starter = __import__("_2048." + file_name, fromlist=["something"])
+    starter = __import__("_2048." + file_name, fromlist=[""])
 
 #Importing non-standard libraries
 try:
@@ -172,8 +172,6 @@ def move(x, y, direction, board):
                        direction == "up"    or
                        direction == "down");
     assert valid_direction, "Invalid direction passed in";  #Logical debug case
-    
-    assert move_possible(x, y, board), "A move has to be possible to perform a move" #Error in swipe logic
     
     #The new x and y for the current piece (adjacent's current position) are stored alongside adjacent (fewer ifs + redundant code)
     if   direction == "left":   adjacent = (starter.get_piece(x-1, y, board), x-1, y);
